@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 set -e
 trap 'printf "\e[?1049l\e[23;0;0t"' EXIT INT TERM
 printf "\e[?1049h\e[22;0;0t"
